@@ -1,13 +1,4 @@
 
-import './App.css'
-
-function App() {
-  
-  return (
-    <>
-    <h1>Olá, Mundo!</h1>  
-    </>
-  )
-}
+import App from './pages/AdiconarUsuario/App.jsx';
 
 export default App

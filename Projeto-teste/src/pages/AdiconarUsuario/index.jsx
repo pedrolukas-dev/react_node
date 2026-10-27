@@ -16,7 +16,7 @@ function AdicionarUsuarios() {
 
 
   return (
-    <div>
+    <section className="user-form">
       <h1>Adicionar Usuários</h1>
       {/* Correção: "form" estava escrito como "from" e precisava do onSubmit */}
       <form onSubmit={FuncaoAdiconarUsuario}>
@@ -42,7 +42,7 @@ function AdicionarUsuarios() {
 
         <button type="submit">Adicionar</button>
       </form>
-    </div>
+    </section>
   );
 }
 
